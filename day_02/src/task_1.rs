@@ -3,7 +3,7 @@ use crate::structs::{Cubes, Game};
 use std::fs;
 
 pub fn task_1() {
-    let lines = fs::read_to_string("data/input_1.txt").unwrap();
+    let lines = fs::read_to_string("data/test_input_1.txt").unwrap();
     let mut games: Vec<Game> = Vec::new();
     let max_game = Cubes {
         blue: 14,

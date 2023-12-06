@@ -10,3 +10,9 @@ pub struct Game {
     pub id: u32,
     pub draws: Vec<Cubes>,
 }
+
+#[derive(Debug)]
+pub struct MinGame {
+    pub id: u32,
+    pub min_draw: Cubes,
+}
